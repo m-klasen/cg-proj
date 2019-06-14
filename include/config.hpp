@@ -2,5 +2,4 @@
 
 #include <string>
 
-#define SHADER_ROOT std::string("/home/mlk/cg/framework/shaders/")
-#define DATA_ROOT std::string("/home/mlk/cg/framework/data/")
+#define SHADER_ROOT std::string("C:/Users/hoeck/OneDrive/Dokumente/Uni Informatik/19_SS/Computer Grafik/git/cg-proj/shaders/")
