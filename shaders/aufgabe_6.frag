@@ -19,7 +19,7 @@ vec2 getUVCoordinatesCyl(vec3 p) {
     p = normalize(p);
     float u = atan(p.x, p.z) / (2*pi) + 0.5;
     float v = p.y * 0.5 + 0.5;
-    return glm::vec2(u,v);
+    return vec2(u,v);
 }
 
 vec2 getUVCoordinatesSph(vec3 p) {
@@ -28,7 +28,7 @@ vec2 getUVCoordinatesSph(vec3 p) {
     float u = ((atan(p.x, p.z) / pi) + 1.0f) * 0.5f;
     float v = (asin(p.y) / pi) + 0.5f;
 
-    return glm::vec2(u, v);;
+    return vec2(u, v);
 }
 
 void main() {
